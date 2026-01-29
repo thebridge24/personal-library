@@ -133,21 +133,27 @@ function App() {
 
           <div className="flex gap-4">
           
-         <button
+         <a
               aria-label="keypad"
+              href="https://wa.me/2349160979848?text=Hi%20Alexander%2C%20I%20visited%20your%20website%20and%20I’d%20like%20to%20hire%20you."
+  target="_blank"
+  rel="noopener noreferrer"
               className={`py-3 px-6 rounded-full active:rounded-xl active:scale-[0.97]
               text-white bg-black transition duration-200`}
             >
                Hire Me
-            </button>
-            <button
+            </a>
+            <a
+             href="https://wa.me/2349160979848?text=Hi%20Alexander%2C%20I%20saw%20your%20website%20and%20I’d%20like%20to%20see%20more%20of%20your%20projects."
+  target="_blank"
+  rel="noopener noreferrer"
               aria-label="keypad"
               className={`py-3 px-6 rounded-full active:rounded-xl
              active:scale-[0.97] transition duration-200 border-2 border-black
             hover:bg-black/`}
             >
                View My Projects
-            </button>
+            </a>
           </div>
         </div>
       )}
