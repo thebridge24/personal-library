@@ -130,6 +130,7 @@ function App() {
           <h1 className="text-3xl md:text-6xl xl:text-8xl font-bold text-center">
             Alexander D Bridge
           </h1>
+          <p className="-mt-4">Frontend Developer</p>
 
           <div className="flex gap-4">
           
