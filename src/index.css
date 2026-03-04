@@ -321,7 +321,7 @@ body{
   background-size: 300px 150px;
   background-position: center bottom;
   clip-path: circle(150px at center center);
-  animation: flashlight 10s ease infinite;
+  animation: flashlight 20s ease infinite;
 }
 
 .container:after {
