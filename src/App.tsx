@@ -86,7 +86,7 @@ function App() {
           Home Screen
       ====================== */}
       <div className="w-full z-50 relative min-h-screen flex flex-col items-center justify-center gap-6 text-black dark:text-white transition-colors duration-700">
-        <img src={alexanderLogo} className="w-72" alt="" />
+        <img src={alexanderLogo} className="w-56 md:w-64" alt="" />
 
         <h1 className="text-3xl md:text-6xl xl:text-8xl font-bold text-center">
           Alexander D Bridge
